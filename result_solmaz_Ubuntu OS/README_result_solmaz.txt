@@ -342,6 +342,27 @@ All logs will be saved to trained_model/KGAT/amazon-book/embed-dim64_relation-di
 2022-06-09 10:16:25,272 - root - INFO - CF Training: Epoch 0001 Iter 0124 / 0638 | Time 11.6s | Iter Loss 0.0247 | Iter Mean Loss 0.0255
 
 ****************************************************
+* ecfkg model amazon-book
+####first log
+****************************************************
+
+solmaz@sol-VirtualBox:~/sol/KGAT-pytorch$ python3 main_bprmf.py
+All logs will be saved to trained_model/BPRMF/amazon-book/embed-dim64_lr0.0001_pretrain1/log0.log
+2022-06-09 18:56:26,720 - root - INFO - Namespace(Ks='[20, 40, 60, 80, 100]', data_dir='datasets/', data_name='amazon-book', embed_dim=64, evaluate_every=10, l2loss_lambda=1e-05, lr=0.0001, n_epoch=1000, pretrain_embedding_dir='datasets/pretrain/', pretrain_model_path='trained_model/model.pth', print_every=1, save_dir='trained_model/BPRMF/amazon-book/embed-dim64_lr0.0001_pretrain1/', seed=2019, stopping_steps=10, test_batch_size=10000, train_batch_size=1024, use_pretrain=1)
+2022-06-09 18:56:30,251 - root - INFO - n_users:     70679
+2022-06-09 18:56:30,256 - root - INFO - n_items:     24915
+2022-06-09 18:56:30,256 - root - INFO - n_cf_train:  652514
+2022-06-09 18:56:30,256 - root - INFO - n_cf_test:   193920
+2022-06-09 18:56:30,777 - root - INFO - BPRMF(
+  (user_embed): Embedding(70679, 64)
+  (item_embed): Embedding(24915, 64)
+)
+2022-06-09 18:56:31,222 - root - INFO - CF Training: Epoch 0001 Iter 0001 / 0638 | Time 0.4s | Iter Loss 0.0344 | Iter Mean Loss 0.0344
+2022-06-09 18:56:31,613 - root - INFO - CF Training: Epoch 0001 Iter 0002 / 0638 | Time 0.4s | Iter Loss 0.0329 | Iter Mean Loss 0.0337
+2022-06-09 18:56:32,012 - root - INFO - CF Training: Epoch 0001 Iter 0003 / 0638 | Time 0.4s | Iter Loss 0.0338 | Iter Mean Loss 0.0337
+2022-06-09 18:56:32,497 - root - INFO - CF Training: Epoch 0001 Iter 0004 / 0638 | Time 0.5s | Iter Loss 0.0334 | Iter Mean Loss 0.0336
+
+****************************************************
 * ecfkg model last log amazon-book
 
 ****************************************************
