@@ -1,12 +1,24 @@
 # Solmaz log
 
 * Amazon-book dataset
+****************************************************
  ## Environment Requirements
 
 - Ubuntu OS
 - Python >= 3.8 (Anaconda3 is recommended)
 - PyTorch 1.7+
-- A Nvidia GPU with cuda 11.1+       
+- A Nvidia GPU with cuda 11.1+  
+****************************************************
+ Start training
+   # Run the Codes
+  
+   ```shell
+   python3 main_kgat.py 
+   python3 main_ecfkg.py
+   python3 main_cke.py
+   python3 main_bprmf.py
+   python3 main_nfm.py  
+   ```
 ****************************************************
 * KGAT model amazon-book
 # Training Log of KGAT
