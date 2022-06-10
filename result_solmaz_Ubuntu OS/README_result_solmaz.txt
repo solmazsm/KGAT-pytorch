@@ -11,7 +11,7 @@ This is PyTorch implementation for the paper:
 
 - Ubuntu OS
 - Python >= 3.8 (Anaconda3 is recommended)
-- PyTorch 2.9+
+- PyTorch 1.7+
 - A Nvidia GPU with cuda 11.1+
 
 ## Datasets
