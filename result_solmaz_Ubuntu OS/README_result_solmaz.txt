@@ -1,11 +1,9 @@
 # Solmaz result
 
-## Reference
-# Knowledge Graph Attention Network
-This is PyTorch implementation for the paper:
->Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua (2019). KGAT: Knowledge Graph Attention Network for Recommendation. [Paper in ACM DL](https://dl.acm.org/authorize.cfm?key=N688414) or [Paper in arXiv](https://arxiv.org/abs/1905.07854). In KDD'19, Anchorage, Alaska, USA, August 4-8, 2019.
-*********************************************************
 
+*********************************************************
+## Dataset
+Amazon-book
 
 ## Environment Requirements
 
@@ -13,6 +11,25 @@ This is PyTorch implementation for the paper:
 - Python >= 3.8 (Anaconda3 is recommended)
 - PyTorch 1.7+
 - A Nvidia GPU with cuda 11.1+
+****************************************************
+## Train
+
+ Start training
+   # Run the Codes
+  
+   ```shell
+   python3 main_kgat.py 
+   python3 main_ecfkg.py
+   python3 main_cke.py
+   python3 main_bprmf.py
+   python3 main_nfm.py  
+ ```  
+ ****************************************************  
+## Reference
+# Knowledge Graph Attention Network
+This is PyTorch implementation for the paper:
+>Xiang Wang, Xiangnan He, Yixin Cao, Meng Liu and Tat-Seng Chua (2019). KGAT: Knowledge Graph Attention Network for Recommendation. [Paper in ACM DL](https://dl.acm.org/authorize.cfm?key=N688414) or [Paper in arXiv](https://arxiv.org/abs/1905.07854). In KDD'19, Anchorage, Alaska, USA, August 4-8, 2019. 
+
 
 ## Datasets
 
@@ -45,12 +62,7 @@ The prepared folder structure is like this:
 
 ## Train
 
-1. Now, we have provided the cold-start scenario data of last-fm. The codes for constructing the other datasets is as follows.
-   ```shell
-   python construct_data.py
-   ```
-
-2. Start training
+ Start training
    # Run the Codes
   
    ```shell
