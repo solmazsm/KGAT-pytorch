@@ -1,4 +1,6 @@
-# Solmaz log
+# Solmaz
+# Ruigeng
+log
 
 * Amazon-book dataset
 ****************************************************
