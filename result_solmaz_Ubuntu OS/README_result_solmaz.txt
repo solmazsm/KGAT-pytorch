@@ -7,10 +7,14 @@ Amazon-book
 
 ## Environment Requirements
 
-- Ubuntu OS
-- Python >= 3.8 (Anaconda3 is recommended)
-- PyTorch 1.7+
-- A Nvidia GPU with cuda 11.1+
+Ubuntu OS
+Python >= 3.8 (Anaconda3 is recommended)
+torch 1.11
+numpy 1.22.4
+pandas 1.4.2
+scipy 1.8.1
+tqdm 4.64.0
+scikit-learn 1.1.1
 ****************************************************
 ## Train
 
@@ -25,6 +29,24 @@ Amazon-book
    python3 main_nfm.py  
  ```  
  ****************************************************  
+ python3 --version
+Python 3.8.10
+
+pip show torch
+Name: torch
+Version: 1.11.0
+
+pip freeze | grep 'numpy'
+numpy==1.22.4
+pip freeze | grep 'pandas'
+pandas==1.4.2
+pip freeze | grep 'scipy' 
+scipy==1.8.1
+pip freeze | grep 'tqdm' 
+tqdm==4.64.0
+pip freeze | grep  'scikit-learn'
+scikit-learn==1.1.1
+****************************************************  
 ## Reference
 # Knowledge Graph Attention Network
 This is PyTorch implementation for the paper:
